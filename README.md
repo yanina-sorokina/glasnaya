@@ -1,7 +1,7 @@
 # Анализ данных для текста о дефиците акушерок — от ...
 # English version below
 
-Этот репозиторий содержит данные, код и результаты, которые подтверждают части текста о нехватке акушерок и акушеров-гинекологов [TKTKTKTK](https://support.semnasem.org/), опубликованного ДД/ММ/ГГГГ. Пожалуйста, прочитайте сам текст, содержащий важный контекст и подробности, прежде чем продолжить.
+Этот репозиторий содержит данные, код и результаты, которые подтверждают части текста о нехватке акушерок и акушеров-гинекологов [TKTKTKTK](https://friendly2.me/support/glasnaya/), опубликованного **ДД/ММ/ГГГГ**. Пожалуйста, прочитайте сам текст, содержащий важный контекст и подробности, прежде чем продолжить.
 
 ## Данные
 
@@ -13,7 +13,7 @@
 - [Единая межведомственная информационно–статистическая система (ЕМИСС)](https://fedstat.ru)
 
 
-Итоговый файл [`MAIN dataset with personnel.xlsx`](output/tktktk.xlsx) содержит, помимо прочего, следующие столбцы, имеющие отношение к анализу:
+Итоговый файл [`MAIN dataset with personnel.xlsx`](https://github.com/yanina-sorokina/glasnaya/blob/main/MAIN%20dataset%20with%20personnel.xlsx) содержит, помимо прочего, следующие столбцы, имеющие отношение к анализу:
 
 - `id` - уникальный код вакансии
 - `region_name` - название региона, в котором опубликована вакансия
@@ -25,7 +25,7 @@
 
 ## Методология
 
-Рабочая тетрадь [`API OBGYN trudvsem.ipynb`](notebook/tktktk.ipynb) производит следующий анализ:
+Рабочая тетрадь [`API OBGYN trudvsem.ipynb`](https://github.com/yanina-sorokina/glasnaya/blob/main/API%20OBGYN%20trudvsem.ipynb) производит следующий анализ:
 
 ##### Часть 1: Скачивание данных
 
@@ -33,7 +33,7 @@
 
 ##### Часть 3: Анализ данных
 
-[`public data analysis.ipynb`](notebook/tktktk.ipynb), в свою очередь, производит следующий анализ:
+[`public data analysis.ipynb`](https://github.com/yanina-sorokina/glasnaya/blob/main/public%20data%20analysis.ipynb), в свою очередь, производит следующий анализ:
 
 ##### Часть 1: Осмотр и преобразование данных
 
@@ -41,14 +41,14 @@
 
 ## Данные на выходе
 
-Рабочая тетрадь [`API OBGYN trudvsem.ipynb`](notebook/tktktk.ipynb) выводит датасет [`MAIN dataset with personnel.xlsx`](output/tktktk.xlsx).
+Рабочая тетрадь [`API OBGYN trudvsem.ipynb`](https://github.com/yanina-sorokina/glasnaya/blob/main/API%20OBGYN%20trudvsem.ipynb) выводит датасет [`MAIN dataset with personnel.xlsx`](https://github.com/yanina-sorokina/glasnaya/blob/main/MAIN%20dataset%20with%20personnel.xlsx).
 
 ## Репликация анализа
 
 Вы можете повторить анализ самостоятельно. Для этого на вашем компьютере должно быть установлено следующее:
 
 - Python 3
-- Библиотеки Python, указанные в [`API OBGYN trudvsem.ipynb`](notebook/tktktk.ipynb) и [`public data analysis.ipynb`](notebook/tktktk.ipynb)
+- Библиотеки Python, указанные в [`API OBGYN trudvsem.ipynb`](https://github.com/yanina-sorokina/glasnaya/blob/main/API%20OBGYN%20trudvsem.ipynb) и [`public data analysis.ipynb`](https://github.com/yanina-sorokina/glasnaya/blob/main/public%20data%20analysis.ipynb)
 
 ## Лицензия
 
@@ -60,7 +60,7 @@
 
 # Analysis of the shortage of obstetricians and gynecologists — Month Date, 2025
 
-This repository contains data, analytic code, and findings that support portions of the article about the shortage of obstetricians and gynecologists, “[TKTKTKTK](https://support.semnasem.org/),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
+This repository contains data, analytic code, and findings that support portions of the article about the shortage of obstetricians and gynecologists, “[TKTKTKTK](https://friendly2.me/support/glasnaya/),” published **Month Date, Year**. Please read that article, which contains important context and details, before proceeding.
 
 ## Data
 
@@ -71,7 +71,7 @@ The spreadsheets come from the following sources:
 - [Work in Russia platform](https://trudvsem.ru)
 - [Unified Interdepartmental Information and Statistical System (EMISS)](https://fedstat.ru)
 
-The resulting file [`MAIN dataset with personnel.xlsx`](output/tktktk.xlsx), among others, the following columns relevant to the analysis:
+The resulting file [`MAIN dataset with personnel.xlsx`](https://github.com/yanina-sorokina/glasnaya/blob/main/MAIN%20dataset%20with%20personnel.xlsx), among others, the following columns relevant to the analysis:
 
 - `id` - unique code for a vacancy
 - `region_name` - name of the region where the job is posted
@@ -83,7 +83,7 @@ The resulting file [`MAIN dataset with personnel.xlsx`](output/tktktk.xlsx), amo
 
 ## Methodology
 
-The notebook [`API OBGYN trudvsem.ipynb`](notebook/tktktk.ipynb) performs the following analyses:
+The notebook [`API OBGYN trudvsem.ipynb`](https://github.com/yanina-sorokina/glasnaya/blob/main/API%20OBGYN%20trudvsem.ipynb) performs the following analyses:
 
 ##### Part 1: Parsing data
 
@@ -91,7 +91,7 @@ The notebook [`API OBGYN trudvsem.ipynb`](notebook/tktktk.ipynb) performs the fo
 
 ##### Part 3: Analyzing data
 
-[`public data analysis.ipynb`](notebook/tktktk.ipynb), in turn, performs the following analysis:
+[`public data analysis.ipynb`](https://github.com/yanina-sorokina/glasnaya/blob/main/public%20data%20analysis.ipynb), in turn, performs the following analysis:
 
 ##### Part 1: Data inspection and transformation
 
@@ -99,14 +99,14 @@ The notebook [`API OBGYN trudvsem.ipynb`](notebook/tktktk.ipynb) performs the fo
 
 ## Outputs
 
-The notebook [`API OBGYN trudvsem.ipynb`](notebook/tktktk.ipynb) outputs the dataset [`MAIN dataset with personnel.xlsx`](output/tktktk.xlsx).
+The notebook [`API OBGYN trudvsem.ipynb`](https://github.com/yanina-sorokina/glasnaya/blob/main/API%20OBGYN%20trudvsem.ipynb) outputs the dataset [`MAIN dataset with personnel.xlsx`](https://github.com/yanina-sorokina/glasnaya/blob/main/MAIN%20dataset%20with%20personnel.xlsx).
 
 ## Running the analysis yourself
 
 You can run the analysis yourself. To do so, you'll need the following installed on your computer:
 
 - Python 3
-- The Python libraries specified in [`API OBGYN trudvsem.ipynb`](notebook/tktktk.ipynb) and [`public data analysis.ipynb`](notebook/tktktk.ipynb)
+- The Python libraries specified in [`API OBGYN trudvsem.ipynb`](https://github.com/yanina-sorokina/glasnaya/blob/main/API%20OBGYN%20trudvsem.ipynb) and [`public data analysis.ipynb`](https://github.com/yanina-sorokina/glasnaya/blob/main/public%20data%20analysis.ipynb)
 
 ## Licensing
 
